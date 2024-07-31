@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 /* @import url('../../../public/font/GeistMono-1.3.0/GeistMono-1.3.0/statics-ttf'); */
 
+/* Default styles for large screens */
 .heroH1 {
   font-family: "Bricolage Grotesque", sans-serif;
   font-optical-sizing: auto;
@@ -29,12 +30,16 @@
   letter-spacing: 0.5px;
 }
 
-.headingH1 {
-  font-family: "Bricolage Grotesque", sans-serif;
-  background: #ffffff;
-  background: linear-gradient(to right, #ffffff 100%, #ffffff 30%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* Media query for small screens */
+@media (max-width: 640px) {
+  .heroH1 {
+    font-size: 32px; /* Adjust this value as needed */
+    line-height: 40px;
+  }
+
+  .heroH2 {
+    font-size: 18px; /* Adjust this value as needed */
+  }
 }
 
 /* .inter-<uniquifier> {
