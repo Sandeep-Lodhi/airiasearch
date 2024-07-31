@@ -1,14 +1,15 @@
 import React from "react";
-import './Hero.css'
+import './Hero.css';
+
 function Hero() {
   return (
     <>
       <section>
         <div className="p-8 rounded-md">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 heroH1">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 heroH1">
             AI Search that <br /> reads  <span>intent</span>
           </h1>
-          <h2 className="text-lg md:text-xl lg:text-2xl mb-8 heroH2">
+          <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 heroH2">
             Airia is an enterprise search engine designed to help users find
             exactly <br /> what they need without the hassle of using the right
             keywords.
